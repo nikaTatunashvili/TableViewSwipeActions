@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		E14012BB2587C62C00A02B41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14012BA2587C62C00A02B41 /* AppDelegate.swift */; };
 		E14012BD2587C62C00A02B41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14012BC2587C62C00A02B41 /* SceneDelegate.swift */; };
-		E14012BF2587C62C00A02B41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14012BE2587C62C00A02B41 /* ViewController.swift */; };
 		E14012C22587C62C00A02B41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E14012C02587C62C00A02B41 /* Main.storyboard */; };
 		E14012C42587C62F00A02B41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E14012C32587C62F00A02B41 /* Assets.xcassets */; };
 		E14012C72587C62F00A02B41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E14012C52587C62F00A02B41 /* LaunchScreen.storyboard */; };
+		E1BD4FF0258BE5F600887831 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BD4FEF258BE5F600887831 /* TableViewController.swift */; };
+		E1BD4FF3258BE67D00887831 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BD4FF2258BE67D00887831 /* CollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E14012B72587C62C00A02B41 /* Geolab-TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Geolab-TableView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E14012BA2587C62C00A02B41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E14012BC2587C62C00A02B41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E14012BE2587C62C00A02B41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E14012C12587C62C00A02B41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E14012C32587C62F00A02B41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E14012C62587C62F00A02B41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E14012C82587C62F00A02B41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1BD4FEF258BE5F600887831 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		E1BD4FF2258BE67D00887831 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				E14012BA2587C62C00A02B41 /* AppDelegate.swift */,
 				E14012BC2587C62C00A02B41 /* SceneDelegate.swift */,
-				E14012BE2587C62C00A02B41 /* ViewController.swift */,
+				E1BD4FEF258BE5F600887831 /* TableViewController.swift */,
+				E1BD4FF2258BE67D00887831 /* CollectionViewController.swift */,
 				E14012C02587C62C00A02B41 /* Main.storyboard */,
 				E14012C32587C62F00A02B41 /* Assets.xcassets */,
 				E14012C52587C62F00A02B41 /* LaunchScreen.storyboard */,
@@ -137,9 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E14012BF2587C62C00A02B41 /* ViewController.swift in Sources */,
 				E14012BB2587C62C00A02B41 /* AppDelegate.swift in Sources */,
 				E14012BD2587C62C00A02B41 /* SceneDelegate.swift in Sources */,
+				E1BD4FF0258BE5F600887831 /* TableViewController.swift in Sources */,
+				E1BD4FF3258BE67D00887831 /* CollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

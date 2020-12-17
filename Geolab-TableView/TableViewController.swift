@@ -1,14 +1,14 @@
 //
-//  ViewController.swift
+//  TableViewController.swift
 //  Geolab-TableView
 //
-//  Created by Nikoloz Tatunashvili on 14.12.20.
+//  Created by Nikoloz Tatunashvili on 17.12.20.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class TableViewController: UIViewController {
+    
     @IBOutlet weak var tableView: UITableView!
     
     var tableDataSource: [String] = []
@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     }
 }
 
-extension ViewController: UITableViewDataSource {
+extension TableViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         tableDataSource.count
     }
@@ -39,7 +39,7 @@ extension ViewController: UITableViewDataSource {
     }
 }
 
-extension ViewController: UITableViewDelegate {
+extension TableViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         cell.textLabel?.text = tableDataSource[indexPath.row]
     }
@@ -92,3 +92,4 @@ extension ViewController: UITableViewDelegate {
         tableView.deleteRows(at: [indexPath], with: .fade)
     }
 }
+
